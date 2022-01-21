@@ -6,7 +6,7 @@
 
     <div class="flex flex-col justify-items-center min-h-screen bg-gradient-to-r from-green-400 to-yellow-300">
         <form @submit.prevent="addTask" class="bg-gradient-to-r from-yellow-300 to-green-300 m-7 p-3 rounded-lg flex justify-center mx-auto">
-          <input type="text" placeholder="Add your Todo" v-model="newTask" class="border-2 border-green-600 rounded p-2 w-96">
+          <input type="text" placeholder="Add your Todo" v-model="newTask" class="border-2 border-green-600 rounded p-2 w-full sm:w-96">
           <span>
             <input type="submit" value="Add" class="mx-3 rounded border-2 border-green-600 bg-green-600 p-2 font-bold text-yellow-300 opacity-70 hover:opacity-100">
           </span>
